@@ -1,0 +1,47 @@
+nav {
+  background-color: green;
+  flex: 1;
+}
+
+main {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+}
+
+#map {
+  background-color: red;
+  flex: 5;
+}
+
+#camera {
+  background-color: yellow;
+  flex: 3;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  display: flex;
+}
+
+.menu-item {
+  padding: 6px;
+  background-color: #0b3954;
+  color: #b5bec6;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-left:4px solid transparent;
+}
+
+.menu-item:hover {
+  color: #c7dbe6;
+  border-left: 4px solid #bfb1c1;
+
+}
