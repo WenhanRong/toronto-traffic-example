@@ -5,7 +5,7 @@
   "scripts": {
     "test": "mocha test",
     "test-live": "mocha --watch test",
-    "start": "parcel index.html"
+    "start": "parcel ./src/index.html"
   },
   "author": "David Humphrey",
   "license": "MIT",

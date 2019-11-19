@@ -50,4 +50,5 @@ function CameraViews(north, east, south, west) {
  * http://opendata.toronto.ca/transportation/tmc/rescucameraimages/ComparisonImages/loc8034n.jpg
  */
 
+// export default CameraViews;
 module.exports = CameraViews;

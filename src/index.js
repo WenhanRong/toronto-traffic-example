@@ -1,10 +1,10 @@
-import Intersections from './intersections';
-import { loadCSVData } from './csv-loader';
+const Intersections = require('./intersections');
+const { loadCSVData } = require('./csv-loader');
 
 // For debugging purposes, all functions are available here...
-import Intersection from './intersection';
-import CameraViews from './camera-views';
-import Location from './location';
+const Intersection = require('./intersection');
+const CameraViews = require('./camera-views');
+const Location = require('./location');
 
 // TODO: You can try working with your functions/objects
 // here, to make development easier.  Eventually we'll
